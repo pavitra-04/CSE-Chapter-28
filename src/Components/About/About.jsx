@@ -17,7 +17,7 @@ const shivashish = "https://res.cloudinary.com/diwucid84/image/upload/v175958684
 const manasmita = "https://res.cloudinary.com/diwucid84/image/upload/v1759586822/masnasmita_njj2ut.jpg";
 const dhairyawan = 'https://res.cloudinary.com/diwucid84/image/upload/v1759586820/Dhairyawan_tiyiyh.jpg';
 const aman = 'https://res.cloudinary.com/diwucid84/image/upload/v1759586819/aman_nbcjz5.jpg';
-
+const pavitra='https://res.cloudinary.com/dxxjhbo0i/image/upload/v1771500379/WhatsApp_Image_2025-12-27_at_15.00.17_d4v6zt.jpg'
 function about() {
   return (
     <div className="flex justify-center items-center  h-[100%] flex-col">
@@ -44,7 +44,14 @@ We hope this platform serves as a helpful resource for staying connected, inform
          email="b124011@iiit-bh.ac.in"
         work=" Frontend || UI/UX "
       />
-      
+      <AboutCard named="Pavitra" 
+        pic={pavitra}
+        Instagram="https://www.instagram.com/pavitra._/"
+        GitHub="https://github.com/pavitra-04"
+        LinkedIn="https://www.linkedin.com/in/pavitra04/"
+         email="b124083@iiit-bh.ac.in"
+        work=" Frontend "
+      />
     </div>
   <h1 className='text-5xl lg:text-7xl mt-20  mb-6 mr-[10%] ml-[10%] font-semibold text-[#004040] sofia'>CHAPTER '28 TEAM</h1>
     <div className="cards flex-wrap flex flex-row justify-center gap-10 max-w-[80vw]">
